@@ -43,4 +43,9 @@ app.use('/todos', todoRoutes)
  
 app.listen(process.env.PORT, ()=>{
     console.log('Server is running, you better catch it!')
-})    
+})  
+
+
+// test commit
+// hopefully this commit logs into my profile successfully
+const start = "test variable"
