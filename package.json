@@ -1,13 +1,13 @@
 {
   "name": "todo-mvc-auth-local",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simple ToDo App is built using the MVC Architecture, we have also implemented \"authorization\" so folx can sign up, customize & personalize the app",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Gil Guereque",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -24,5 +24,14 @@
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "validator": "^13.6.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GilGuereque/todo-mvc-auth-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GilGuereque/todo-mvc-auth-app/issues"
+  },
+  "homepage": "https://github.com/GilGuereque/todo-mvc-auth-app#readme"
 }
