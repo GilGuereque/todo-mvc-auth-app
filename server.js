@@ -47,3 +47,6 @@ app.listen(process.env.PORT, ()=>{
 
 // testing commits from dev drive
 let commit = 'devDrive';
+if (commit = 0) {
+  return 'you have committed to Git';
+};
